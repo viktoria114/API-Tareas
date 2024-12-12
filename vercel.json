@@ -1,5 +1,5 @@
 {
-  "verison": 2,
+  "verson": 2,
   "build": [{ "src": "app.js", "use": "@vercel/node" }],
   "Routes": [{ "src": "/(.*)", "dest": "/app.js" }]
 }

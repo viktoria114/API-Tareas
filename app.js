@@ -9,7 +9,7 @@ const tareasRoutes = require("./routes/tareas"); // Importar las rutas de libros
 //Middleware
 const loggingMiddleware = require('./middlewares/loggingMiddleware');
 const errorMiddleware = require('./middlewares/errorMiddleware'); //Errores globles
-const notFoundMiddleware = require('./middlewares/notFoundMiddleware');  // Importamos el middleware de rutas no encontradas
+const notFoundMiddleware = require('./middlewares/notFoundMiddleware.js');  // Importamos el middleware de rutas no encontradas
 
 //cors
 const cors = require('cors');

@@ -11,6 +11,10 @@ app.use(express.json()); // Middleware para interpretar JSON
 // Usar las rutas de libros
 app.use("/api", tareasRoutes);
 
+app.get('/api/test',(req,res) =>{
+res.send('La aplicacion esta funcionando correctamente')
+})
+
 // Probar la conexión a la base de datos y arrancar el servidor
 dbconnect()
   .then(() => {
